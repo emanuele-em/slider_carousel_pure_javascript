@@ -9,6 +9,8 @@ Contributions are always welcome!
 
 See [`contributing.md`](contributing.md) for ways to get started.
 
+Please adhere to this project's [`code of conduct`](code_of_conduct.md).
+
 ## Authors
 
 - [@emanuele-em](https://www.github.com/emanuele-em)
