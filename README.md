@@ -1,8 +1,7 @@
 
 # Pure Javascript Slider Carousel
 
-A brief description of what this project does and who it's for
-
+Full Slider Carousel pure Javascript and CSS, Custom images, text and colors, easy to implement
 
 ## Authors
 
