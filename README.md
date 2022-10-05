@@ -3,6 +3,14 @@
 
 🖼️ 🎠 Full Slider Carousel pure Javascript and CSS, Custom images, text and colors, easy to implement
 
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
 ## Authors
 
 - [@emanuele-em](https://www.github.com/emanuele-em)
