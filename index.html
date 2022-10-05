@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/Slider.js"></script>
+    <title>Carousel</title>
+  </head>
+  <body>
+    <div id="mySlider"></div>
+  </body>
+
+  <script>
+    /*settings*/
+    const settings = {
+      container: "mySlider", //container name
+      textColor: "white", //text color also # or rgba
+      ctaBackground: "#81C784", //button color, dots color and nav arrow color
+      autoplay: true, //true/false
+      autoplaySpeed: 10000, //time slide active before change
+      ctaColor: "white", //cta TEXT color
+      navArrows: true, //false to hide navigations arrows
+      dots: true, //false to hide navigation buttons
+      marginTop: 0, //space above first Slide, usefull when you set this slider in the first page behind header nav, this option allow you to center text manually and move the text down
+    };
+
+    /*Initialize Slider Class*/
+    var miaslider = new Slider(settings);
+
+    /*Create new slides*/
+    miaslider.newSlide(
+      "First Slide",
+      "Lorem ipsum Dolor si amet",
+      "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://codepen.io/emanuelemicheletti/pen/abYarrv",
+      "Shop NOW"
+    );
+
+    miaslider.newSlide(
+      "Second Slide",
+      "Lorem ipsum Dolor si amet",
+      "https://images.pexels.com/photos/2387418/pexels-photo-2387418.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://codepen.io/emanuelemicheletti/pen/abYarrv",
+      "Open This Product"
+    );
+
+    miaslider.newSlide(
+      "Third Slide",
+      "Lorem ipsum dolor sit amet",
+      "https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://codepen.io/emanuelemicheletti/pen/abYarrv",
+      "Shop This Product"
+    );
+
+    /* Invoke Init*/
+    miaslider.init();
+  </script>
+</html>
