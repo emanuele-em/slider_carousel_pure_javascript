@@ -1,7 +1,7 @@
 
 # Pure Javascript Slider Carousel
 
-🖼️ 🎠 Full Slider Carousel pure Javascript and CSS, Custom images, text and colors, easy to implement
+🖼️ 🎠 Lite and Simple Full Slider Carousel pure Javascript and CSS, Custom images, text and colors, easy to implement
 
 ## Contributing
 
