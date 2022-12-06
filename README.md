@@ -42,24 +42,24 @@ var miaslider = new Slider(settings);
 		miaslider.newSlide(
 		"First Slide",
 		"Lorem ipsum Dolor si amet",
-		"https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"https://codepen.io/emanuelemicheletti/pen/abYarrv" ,
+		"/img/1.png",
+		"www.google.com" ,
 		"Shop NOW"
 		);
 
 		miaslider.newSlide(
 		"Second Slide",
 		"Lorem ipsum Dolor si amet",
-		"https://images.pexels.com/photos/2387418/pexels-photo-2387418.jpeg?auto=compress&cs=tinysrgb&w=1600",
-		"https://codepen.io/emanuelemicheletti/pen/abYarrv",
+		"/img/2.png",
+		"www.google.com" ,
 		"Open This Product"
 		);
 
 		miaslider.newSlide(
 		"Third Slide",
 		"Lorem ipsum dolor sit amet",
-		"https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&w=1600",
-		"https://codepen.io/emanuelemicheletti/pen/abYarrv",
+		"/img/3.png",
+		"www.google.com" ,
 		"Shop This Product"
 		);
 
